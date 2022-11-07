@@ -140,7 +140,7 @@ app.use((ctx) => {
 </div>
 <hr>
 <h2 class="tree">個人通訊</h2>
-<button class="ig" onclick="window.open('https://www.instagram.com/kkdd_0725/', '_blank')">
+<button class="ig" onclick="window.open('https://www.instagram.com/kd_920725/', '_blank')">
 		<b>
 			IG
         </b>

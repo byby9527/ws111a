@@ -1,12 +1,12 @@
-export function layout(datetime, content) {
+export function layout(time, content) {
     return `
     <html>
     <head>
-      <title>${datetime}</title>
+      <title>${time}</title>
       <style>
         body {
-          padding: 80px;
-          font: 16px Helvetica, Arial;
+          padding: 100px;
+          font: 18px Helvetica, Arial;
           background-color:DodgerBlue;
         }
     
@@ -96,7 +96,7 @@ export function layout(datetime, content) {
     for (let post of posts) {
       list.push(`
       <li>
-      <h2>${post.datetime}</h2>
+      <h2>${post.time}</h2>
       <h3>${post.title}</h3>
       <p><a href="/post/${post.id}">其他內容</a></p>
       </li>
@@ -118,7 +118,7 @@ export function layout(datetime, content) {
     <p>創造一個新事件</p>
     <form action="/post" method="post">
     <p><input type="text" placeholder="Title" name="title"></p>
-    <p><input type="datetime-local" value="" name="datetime"></p>
+    <p><input type="datetime-local" value="" name="time"></p>
     <p><textarea placeholder="Contents" name="body"></textarea></p>
     <input class="favorite styled" type="submit" value="Create">
     </form>
@@ -126,8 +126,8 @@ export function layout(datetime, content) {
   }
   
   export function show(post) {
-    return layout(post.datetime, `
-      <h1>${post.datetime}</h1>
+    return layout(post.time, `
+      <h1>${post.time}</h1>
       <h2>${post.title}</h2>
       <pre>${post.body}</pre>
       </br></br>

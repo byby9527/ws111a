@@ -2,9 +2,9 @@ import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 import * as render from './render.js'
 
 const posts = [
-  {id:0, title:'hi', datetime:'2022-11-20',body:'Hello World'},
-  {id:1, title:'favorite food', datetime:'2022-11-20',body:'fried chicken'},
-  {id:2, title:'Like ', datetime:'2022-11-20',body:'basketball'}
+  {id:0, title:'hi', time:'2022-11-20',body:'Hello World'},
+  {id:1, title:'favorite food', time:'2022-11-20',body:'fried chicken'},
+  {id:2, title:'Like ', time:'2022-11-20',body:'basketball'}
 ];
 
 const router = new Router();
@@ -49,5 +49,5 @@ async function create(ctx) {
   }
 }
 
-console.log('Server run at http://127.0.0.1:8005')
-await app.listen({ port: 8005 });
+console.log('Server run at http://127.0.0.1:8002')
+await app.listen({ port: 8002});

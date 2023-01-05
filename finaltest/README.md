@@ -1,10 +1,23 @@
 # 本程式是複製並修改自別人的專案
+
 ## 期末專案:  Drawing or Paint App
 
-## 檔案連結: https://codepen.io/byby9527/pen/RwBGoER
-## 參考連結: https://www.youtube.com/watch?v=y84tBZo8GFo&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=10
-### 並在其中加入
 
+##此專案修改了15%左右，都是在html、css方面微修一些數據或是版面，大部分都是邊看影片邊打
+
+##未來可以新增的功能:
+
+可以把``` 圖片檔 ```儲存在資料庫裡並上傳給其他人看到
+
+
+
+
+
+## 檔案連結: https://codepen.io/byby9527/pen/RwBGoER
+
+
+
+## 參考連結: https://www.youtube.com/watch?v=y84tBZo8GFo&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=10
 
 
 
@@ -30,6 +43,18 @@
 ``` Clear Canvas ``` 全部清除
 
 ``` Save As Image ``` 儲存並下載圖片
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 心得:

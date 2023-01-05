@@ -9,7 +9,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 110vh;
   background: #4A98F7;
 }
 .container{
@@ -49,7 +49,7 @@ section{
   padding-left: 10px;
 }
 .option:is(:hover, .active) :where(span, label){
-  color: #4A98F7;
+  color: #ff0000;
 }
 .option #fill-color{
   cursor: pointer;
@@ -72,7 +72,7 @@ section{
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  margin-top: 3px;
+  margin-top: 5px;
   position: relative;
 }
 .colors .option:nth-child(1){
@@ -89,8 +89,9 @@ section{
   background-color: #6DD400;
 }
 .colors .option:nth-child(5){
-  background-color: #4A98F7;
+  background-color: #ee82ee;
 }
+
 .colors .option.selected::before{
   position: absolute;
   content: "";

@@ -1,4 +1,6 @@
-## websocket+pgsql;
+## 程式碼解說:
+
+### websocket+pgsql;
 ```
 //server端
 
@@ -30,23 +32,6 @@ await app.listen({ port: 8001});
 
 
 
-
-
-
-//client端
-
-第十二周: 3.50
-
-
-
-```
-
-
-
-
-
-## 程式碼解說:
-
 ```
 
 
@@ -55,7 +40,7 @@ await app.listen({ port: 8001});
 
 
 
-```
+
 
 
 

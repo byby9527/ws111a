@@ -12,7 +12,7 @@ ctx = canvas.getContext("2d");
 let prevMouseX, prevMouseY, snapshot,
 isDrawing = false,
 selectedTool = "brush",
-brushWidth = 5,
+brushWidth = 10,
 selectedColor = "#000";
 
 const setCanvasBackground = () => {

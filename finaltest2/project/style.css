@@ -4,6 +4,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color:beige;
+}
+h2{
+    color:aqua;
+}
+cite{
+    color:blue;
 }
 :root{
     --tenne-tawny: #d65108;
@@ -24,7 +31,7 @@ body{
     font-size: 1.05rem;
 }
 .text{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .title{
     font-size: 2rem;
@@ -36,7 +43,7 @@ body{
     min-height: 100vh;
 }
 .meal-wrapper{
-    max-width: 1280px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 2rem;
     background: #fff;
@@ -71,8 +78,8 @@ body{
     color: var(--tenne-tawny);
 }
 .search-btn{
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     font-size: 1.8rem;
     background: var(--tenne-tawny);
     color: #fff;
@@ -101,7 +108,7 @@ body{
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    box-shadow: 0 5px 21px -12px rgba(0, 0, 0, 0.79);
     margin: 2rem 0;
 }
 .meal-img img{

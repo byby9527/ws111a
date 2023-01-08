@@ -1,8 +1,8 @@
-export function layout(test, content) {
+export function layout(time, content) {
     return `
     <html>
     <head>
-      <title>${test}</title>
+      <title>${time}</title>
       <style>
         body {
           padding: 80px;
@@ -98,7 +98,7 @@ export function layout(test, content) {
     for (let post of posts) {
       list.push(`
       <li>
-      <h2>${post.test}</h2>
+      <h2>${post.time}</h2>
       <h3>${post.title}</h3>
       <p><a href="/post/${post.id}">更多資訊</a></p>
       <p><a href="/deleted/${post.id}">刪除blog</a></p>
@@ -130,8 +130,8 @@ export function layout(test, content) {
   }
   
   export function show(post) {
-    return layout(post.test, `
-      <h1>${post.test}</h1>
+    return layout(post.time, `
+      <h1>${post.time}</h1>
       <h2>${post.title}</h2>
       <pre>${post.body}</pre>
       </br></br>

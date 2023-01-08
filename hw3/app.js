@@ -18,8 +18,8 @@ app.use(router.allowedMethods());
 
 function query(sql) {
     let list = []
-    for (const [id, title,test, body] of db.query(sql)) {
-      list.push({id, title,test, body})
+    for (const [id, title,time, body] of db.query(sql)) {
+      list.push({id, title,time, body})
     }
     return list
   }
@@ -59,10 +59,10 @@ async function create(ctx) {
         post[key] = value
       }
       console.log('create:post=', post)
-      db.query("INSERT INTO posts (title,date, body) VALUES (?,?, ?)", [post.title,post.test, post.body]);
+      db.query("INSERT INTO posts (title,date, body) VALUES (?,?, ?)", [post.title,post.time, post.body]);
       ctx.response.redirect('/');
     }
   }
 
-console.log('Server run at http://127.0.0.1:8008')
-await app.listen({ port: 8008 });
+console.log('Server run at http://127.0.0.1:8012')
+await app.listen({ port: 8012 });
